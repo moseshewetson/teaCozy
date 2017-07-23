@@ -19,6 +19,8 @@ header {
     border-bottom: 1px solid seashell;
     width: 100%;
     align-items: center;
+    top: 0;
+    left: 0;
 }
 .logoimg {
     height: 50px;
@@ -33,4 +35,36 @@ nav a {
     text-decoration: underline;
     color: seashell;
     margin-right: 15px;
+}
+
+/* main section */
+
+.maincontent {
+    display: flex;
+    justify-content: center;
+}
+.main {
+    display: flex;
+}
+.mission {
+    height: 700px;
+    margin-top: 70px;
+    width: 1200px;
+    background-image: url(../media/images/img-mission-background.jpg);
+    justify-content: center;
+    align-items: center;
+}
+.mission_content {
+    background-color: black;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+}
+.mission_content h2 {
+    margin: 0;
+}
+.mission_content h4 {
+    margin: 0;
 }
