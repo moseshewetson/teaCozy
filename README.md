@@ -1,0 +1,2 @@
+# teaCozy
+Codecademy Project
