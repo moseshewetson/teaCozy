@@ -97,3 +97,44 @@ nav a {
 .tea h4 {
     margin-top: 0;
 }
+
+/* Locations */
+
+.locations {
+    width: 1200px;
+}
+.location_content {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-image: url(../media/images/img-locations-background.jpg);
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+.location_info {
+    display: flex;
+}
+.location {
+    width: 300px;
+    margin: 15px 20px;
+    opacity: 1;
+    background-color: black;
+}
+.location p {
+    margin-top: 40px;
+}
+.location_content .title h2 {
+    margin-bottom: 0;
+}
+
+/* footer */
+
+.details {
+    text-align: center;
+    height: 200px;
+}
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+}
